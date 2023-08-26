@@ -13,9 +13,15 @@ include("conexao.php");
 </head>
 <body class="home">
     <main class="home">
-        <form action="" method="post">
-            
-        </form>
+        <div id="form" class="home">
+            <h2>Cadastro de usuário</h2>
+            <form action="insert.php" method="post" autocomplete="off" class="home">
+                <input class="inputmain" type="text" name="nome" placeholder="Nome de usuário" autofocus>
+                <input class="inputmain" type="text" name="senha" placeholder="Senha">
+                <input class="enviar" type="submit" value="CADASTRAR">
+            </form>
+            <a class="voltar home" href="index.html">Voltar</a>
+        </div>
     </main>
 </body>
 </html>

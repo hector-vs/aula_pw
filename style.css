@@ -54,3 +54,58 @@ header.home > a > button:hover {
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.096);
     font-size: 1.2em;
 }
+
+main.home {
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    color: rgb(215, 215, 215);
+}
+
+#form {
+    height: 350px;
+    width: 300px;
+}
+
+#form > form {
+    padding: 10px;
+}
+
+#form > form > input{
+    width: 270px;
+    height: 50px;
+    background-color: rgb(148, 148, 148);
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+#form > form > input.inputmain {
+    padding-left: 20px;
+}
+
+#form > form > input.inputmain:focus {
+    background-color: rgb(215, 215, 215);
+}
+
+#form > form > input.enviar:hover {
+    background-color: rgb(48, 131, 48);
+    color: rgb(215, 215, 215);
+    cursor: pointer;
+}
+
+a.voltar {
+    height: 50px;
+    width: 270px;
+    margin-top: -30px;
+    background-color: rgb(148, 148, 148);
+    transition: 0.2s;
+    color: black;
+}
+
+a.voltar:hover {
+    background-color: rgb(81, 81, 167);
+    color: rgb(215, 215, 215);
+}
